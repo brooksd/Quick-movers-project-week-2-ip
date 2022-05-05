@@ -1,0 +1,51 @@
+/* Navigation Bar */
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav > .navLinks > ul > li {
+    display: inline-block;
+    padding: 25px;
+    color: white;
+}
+
+.yellow {
+    background-color: yellow;
+    color: black;
+    padding: 0 10px 0 10px;
+}
+
+.black {
+    background-color: black;
+    color: yellow;
+    padding: 0 10px 0 10px;
+}
+
+/* Background Image */
+
+#heroSection {
+    background-image: url(../images/moving\ 1.png);
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+
+.heroText {
+    text-align: left;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+
+.heroText > p:first-child {
+    color: yellow;
+    font-size: 60px;
+}
+
+.heroText > p:last-child {
+    color: white;
+    font-size: 30px;
+    font-family: "Poppins";
+}
