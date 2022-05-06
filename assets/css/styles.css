@@ -40,12 +40,31 @@ nav > .navLinks > ul > li {
 }
 
 .heroText > p:first-child {
-    color: yellow;
+    color: #faff00;
     font-size: 60px;
 }
 
 .heroText > p:last-child {
-    color: white;
+    color: #fff;
     font-size: 30px;
     font-family: "Poppins";
+}
+
+/* Image & Text Section */
+
+#imgTextSection {
+    display: flex;
+    margin: 45px 0 45px 0;
+}
+
+.chairImg {
+    width: 500px;
+    height: 500px;
+}
+
+
+#imgTextSection > .rightSide {
+    text-align: left;
+    padding: 70px 0 0 70px;
+    font-size: 30px;
 }
