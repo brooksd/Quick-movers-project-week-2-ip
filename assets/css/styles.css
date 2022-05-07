@@ -50,6 +50,14 @@ nav > .navLinks > ul > li {
     font-family: "Poppins";
 }
 
+.learnMore {
+    cursor: pointer;
+    padding: 15px 30px 15px 15px;
+    border-top-right-radius: 15px;
+    background-color: black;
+    color: #faff00;
+}
+
 /* Image & Text Section */
 
 #imgTextSection {
@@ -67,4 +75,11 @@ nav > .navLinks > ul > li {
     text-align: left;
     padding: 70px 0 0 70px;
     font-size: 30px;
+}
+
+/* Top Movers Section */
+
+.flexContainer {
+    display: grid;
+    grid-template-columns: auto auto auto;
 }
