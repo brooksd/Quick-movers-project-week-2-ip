@@ -15,6 +15,10 @@ nav > .navLinks > ul > li {
     color: white;
 }
 
+nav > .navLinks > ul > li > a {
+    text-decoration: none;
+}
+
 .headerText{
     display: flex;
     justify-content: space-between;
@@ -102,7 +106,6 @@ input {
     width: 840px;
     background-color: white;
     border-radius: 15px;
-    box-shadow: 5px 5px 5px silver;
     margin: 50px 0 0 50px;
     justify-content: center;
 }
@@ -161,6 +164,49 @@ input {
 .features li {
     list-style: none;
     padding: 10px 0 10px 0;
+}
+
+/* Similar Listings Section */
+#similatListingSect {
+    margin-left: 180px;
+    margin-top: 60px;
+}
+
+#similatListingSect h1 {
+    font-size: 30px;
+    text-decoration: overline;
+}
+
+.flexContainer {
+    display: flex;
+    margin: 0 30px;
+    justify-content: space-around;
+}
+
+.flexContainer div {
+    display: flex;
+    flex-direction: column;
+}
+
+.propListings {
+    border-radius: 0 0 15px 15px;
+    width: 250px;
+}
+
+.img {
+    width: 250px;
+    height: 250px;
+}
+
+.img table {
+    margin: 15px;
+    border-spacing: 30px;
+}
+
+.img table, th {
+    border: 1px solid silver;
+    border-collapse: collapse;
+    border-bottom: none;
 }
 
 /* Footer Section */

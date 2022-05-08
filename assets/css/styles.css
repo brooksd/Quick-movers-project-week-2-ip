@@ -16,6 +16,10 @@ nav > .navLinks > ul > li {
     color: white;
 }
 
+nav > .navLinks > ul > li > a {
+    text-decoration: none;
+}
+
 .yellow {
     background-color: yellow;
     color: black;
