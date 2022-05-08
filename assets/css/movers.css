@@ -189,6 +189,7 @@ input {
 #similatListingSect {
     margin-left: 180px;
     margin-top: 60px;
+    margin-bottom: 80px;
 }
 
 #similatListingSect h1 {
@@ -198,9 +199,12 @@ input {
 
 .flexContainer {
     display: flex;
-    margin: 0 30px;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px;
+    padding: 60px;
 }
+
 
 .flexContainer div {
     display: flex;
@@ -208,22 +212,32 @@ input {
 }
 
 .propListings {
+    background-color: white;
     border-radius: 0 0 15px 15px;
     width: 250px;
 }
 
-.img {
+#img {
     width: 250px;
     height: 250px;
+    margin: 15px;
 }
 
-.img table {
+table {
     margin: 15px;
     border-spacing: 30px;
 }
 
-.img table, th {
+.th {
+    padding: 20px;
+}
+.propListings h3 {
+    padding-left: 20px;
+}
+
+table, th {
     border: 1px solid silver;
+    background-color: white;
     border-collapse: collapse;
     border-bottom: none;
 }
@@ -265,3 +279,6 @@ li {
     display: inline;
     margin: 10px;
 }
+ .floatRight {
+     float: right;
+ }
