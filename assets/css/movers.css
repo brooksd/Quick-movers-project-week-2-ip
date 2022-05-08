@@ -23,6 +23,10 @@ nav > .navLinks > ul > li {
     padding-right: 180px;
 }
 
+body{
+    background-color: rgb(243, 243, 243);
+}
+
 /* Listing Section */
 
 .listingContainer {
@@ -49,7 +53,7 @@ nav > .navLinks > ul > li {
 
 .boxStyling > .profile {
     display: flex;
-    background-color: rgba(180,180,180, 0.2);
+    background-color: rgb(243, 243, 243);
     border-radius: 15px;
 }
 
@@ -85,3 +89,76 @@ input {
 }
 
 /* listingCarousel Section */
+
+.listingCarousel {
+    padding-left: 190px;
+}
+
+.listingCarousel > img {
+    width: 120px;
+}
+
+.propListings, .description, #listingFeatures{
+    width: 840px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px silver;
+    margin: 50px 0 0 50px;
+    justify-content: center;
+}
+
+.propListings h4 {
+    padding: 20px 0 0 20px;
+}
+
+.propListings table {
+    margin: 20px;
+    border-spacing: 100px;
+    font-size: 23px;
+}
+
+.propListings table th{
+    border: 1px solid silver;
+    border-collapse: collapse;
+    border-bottom: none;
+}
+
+/* Description Section*/
+
+.description {
+    margin-left: 180px;
+}
+
+.description, .features h1 {
+    border-bottom: 1px solid silver;
+    padding: 20px;
+}
+
+.description p {
+    text-align: left;
+    padding: 20px;
+}
+
+/* Features Section */
+
+#listingFeatures {
+    margin-left: 180px;
+    padding-right: 40px;
+}
+
+#listingFeatures h2 {
+    padding-left: 20px;
+    padding-top: 25px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+}
+
+.features li {
+    list-style: none;
+    padding: 10px 0 10px 0;
+}
