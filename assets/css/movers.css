@@ -19,8 +19,69 @@ nav > .navLinks > ul > li {
     display: flex;
     justify-content: space-between;
     color: white;
-    padding-left: 200px;
+    padding-left: 180px;
     padding-right: 180px;
 }
 
 /* Listing Section */
+
+.listingContainer {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.listingContainer > img {
+    padding-left: 150px;
+    height: 450px;
+    width: 800px;
+}
+
+/* Form Section */
+
+.boxStyling {
+    margin-right: 140px;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 5px 5px 5px silver;
+}
+
+.boxStyling > .profile {
+    display: flex;
+    background-color: rgba(180,180,180, 0.2);
+    border-radius: 15px;
+}
+
+.boxStyling > .profile > img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 10px ;
+}
+
+
+.boxStyling form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    border: 1px solid silver;
+    padding: 15px;
+    margin: 3px;
+    width: 250px;
+    border-radius: 9px;
+}
+
+.learnMore {
+    padding: 20px;
+    margin-top: 10px;
+    width: 290px;
+    color: white;
+    font-size: 15px;
+    background-color: black;
+    border-top-right-radius: 15px;
+}
+
+/* listingCarousel Section */
