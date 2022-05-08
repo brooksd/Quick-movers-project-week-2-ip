@@ -162,3 +162,41 @@ input {
     list-style: none;
     padding: 10px 0 10px 0;
 }
+
+/* Footer Section */
+
+#footer {
+    background-color: black;
+    color: white;
+}
+
+#footer > .text > p {
+    padding: 20px;
+    margin-left: 100px;
+    font-size: 45px;
+    font-weight: 400;
+}
+
+span {
+    color: #faff00;
+}
+
+.endFooter {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+li {
+    list-style: none;
+    padding: 2px;
+}
+
+.socialMedia {
+    font-size: 30px;
+}
+
+.socialMedia li {
+    display: inline;
+    margin: 10px;
+}
