@@ -91,6 +91,10 @@ nav > .navLinks > ul > li > a {
 
 /* Top Movers Section */
 
+#topMoversSect {
+    background-color: rgb(243, 243, 243);
+}
+
 #topMoversSect > h1 {
     font-size: 50px;
     text-decoration: overline;
@@ -113,7 +117,7 @@ nav > .navLinks > ul > li > a {
 
 .propListings {
     background-color: white;
-    border-radius: 0 0 12px 12px;
+    border-radius: 0 0 15px 15px;
 }
 
 .img {
@@ -127,14 +131,14 @@ h3 {
 
 table {
     padding: 25px;
-    border-spacing: 30px;
+    border-spacing: 40px;
 }
 
 table, th{
     border: 1px solid silver;
     border-collapse: collapse;
     border-bottom: none;
-    padding: 20px;
+    padding: 20px 60px 20px 60px;
 }
 
 /* Footer Section */
