@@ -79,7 +79,25 @@ nav > .navLinks > ul > li {
 
 /* Top Movers Section */
 
-.flexContainer {
+.gridContainer {
     display: grid;
     grid-template-columns: auto auto auto;
+    position: relative;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: center;
+    width: 100vw;
+}
+
+.img {
+    width: 300px;
+    height: 300px;
+}
+
+/* Footer Section */
+
+.endFooter {
+    display: flex;
+    list-style: none;
+    padding: 20px;
 }
