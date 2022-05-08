@@ -1,0 +1,26 @@
+/* Navigation Bar */
+.navigation {
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 150px;
+}
+
+nav > .navLinks > ul > li {
+    display: inline-block;
+    padding: 25px;
+    color: white;
+}
+
+.headerText{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding-left: 200px;
+    padding-right: 180px;
+}
+
+/* Listing Section */
