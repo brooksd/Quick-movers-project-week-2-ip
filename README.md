@@ -33,7 +33,7 @@ As a user of the website,you will be able to :
 [Go Back to the top](#Quick-Movers-Website)
 
 ### Live Link
-- Click this link to view the live application  
+- Click this link to view the live application https://brooksd.github.io/Quick-movers-project-week-2-ip/ 
 
 ### Technology  Used
 * HTML - The Makrup language was used in building the base structure of the webpage.
