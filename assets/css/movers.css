@@ -27,6 +27,13 @@ nav > .navLinks > ul > li > a {
     padding-right: 180px;
 }
 
+.workWithUs {
+    padding: 10px 15px 10px 15px;
+    background-color: #faff00;
+    color: black;
+    border-top-right-radius: 15px;
+}
+
 body{
     background-color: rgb(243, 243, 243);
 }
@@ -135,7 +142,7 @@ input {
     border: 1px solid silver;
     border-collapse: collapse;
     border-bottom: none;
-    padding: 20px 73px 20px 73px;
+    padding: 20px 67px 20px 67px;
 }
 
 /* Description Section*/
